@@ -1,0 +1,15 @@
+Click==7.0
+ClusterShell==1.8.1
+configparser==3.5.0
+Cython==0.29
+Flask==1.0.2
+itsdangerous==1.1.0
+Jinja2==2.10
+ldap==1.0.2
+ldap3==2.5.1
+MarkupSafe==1.1.0
+pkg-resources==0.0.0
+pyasn1==0.4.4
+pyslurm==17.11.0.14
+PyYAML==3.13
+Werkzeug==0.14.1
