@@ -39,8 +39,9 @@ def version():
 
 @app.route('/<path:path>', methods=['GET'])
 def send_file(path):
-    return send_from_directory('/etc/slurm-web/dashboard', path)
+    #return send_from_directory('/etc/slurm-web/dashboard', path)
+    return send_from_directory('~/Development/slurm-web/dashboard', path)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
